@@ -1,0 +1,24 @@
+.plans-screen-plan{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: 0.8;
+}
+
+.plans-screen-plan:hover{
+    opacity: 1;
+}
+
+.plans-screen-plan>button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.plans-screen-plan.active>button{
+    background-color: gray;
+}
